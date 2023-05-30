@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: cornflowerblue;
+            background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg')
+            ;
+            
+        }
+        .container #first{
+            background-color: burlywood;
+            border:3px solid rgb(0, 76, 255);
+            padding: 34px;
+            /*in this we can give the padding/margin left padding right and top and bottom also.*/
+            margin: 23px;
+             border-radius:23px; 
+             box-sizing: border-box;         
+        }
+        .container #second{
+            background-color: burlywood;
+            border:3px solid rgb(0, 255, 4);
+            padding: 34px;
+            /*padding:23px 45px 54px 48px ;      ie.the serial of the padding is accoding as top right bottom left.*/
+            margin: 23px;
+           border-radius:23px;
+           box-sizing: border-box;
+        }
+        .container #third{
+            background-color: burlywood;
+            border:3px solid rgb(255, 0, 200);
+            padding: 34px;
+            margin: 23px;
+           border-radius:23px;
+           box-sizing: border-box;
+        }
+        h3{
+           font-size: 50px;
+           color: rgb(210, 60, 30);
+
+          
+        }
+        
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        
+     <h3><center><i>This is my web.</i></center></h3>
+    <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quos quisquam voluptas illum veniam magnam neque dolor, quo praesentium est maiores similique et.</p>
+    <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quos quisquam voluptas illum veniam magnam neque dolor, quo praesentium est maiores similique et.</p>
+    <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quos quisquam voluptas illum veniam magnam neque dolor, quo praesentium est maiores similique et.</p>
+    </div>
+</body>
+</html>
